@@ -29,7 +29,7 @@ Sistem ini dibangun untuk membantu perusahaan dalam melakukan penilaian kinerja 
 - Melihat riwayat penilaian sebelumnya.
 
 ### **6. Laporan Penilaian**
-- Export hasil ke PDF atau Excel *(opsional)*.
+- Export hasil ke PDF.
 
 ### **7. Login Admin**
 - Pengamanan akses ke sistem.
@@ -56,7 +56,7 @@ Metode **SAW (Simple Additive Weighting)** menghitung nilai akhir berdasarkan:
 
 - **Laravel 12** – Framework backend.
 - **MySQL** – Database utama.
-- **Blade / Bootstrap / Tailwind** – Interface pengguna.
+- **Blade & Boostrap** – Interface pengguna.
 - **Chart.js** – Grafik statistik.
 
 ---
@@ -67,12 +67,11 @@ Metode **SAW (Simple Additive Weighting)** menghitung nilai akhir berdasarkan:
 ├── app/
 │   ├── Http/Controllers/
 │   ├── Models/
-│   ├── Services/AhpService.php
 │   ├── Services/SawService.php
 ├── resources/views/
 │   ├── dashboard.blade.php
-│   ├── karyawan/
-│   ├── kriteria/
+│   ├── karyawan.blade.php
+│   ├── kriteria
 │   ├── penilaian/
 ├── database/
 │   ├── migrations/
